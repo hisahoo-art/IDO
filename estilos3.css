@@ -1,0 +1,12 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    }
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    }
+.gallery-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+    }

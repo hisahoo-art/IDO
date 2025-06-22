@@ -1,0 +1,100 @@
+/* estilos.css */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+}
+
+section h2 {
+  border-left: 5px solid #0d6efd;
+  padding-left: 10px;
+  margin-bottom: 1.5rem;
+  color: #0d6efd;
+  font-weight: 700;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #094ba0;
+  font-weight: 600;
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: linear-gradient(45deg, #0d6efd, #094ba0);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.dropdown-menu {
+  border-radius: 0.5rem;
+}
+
+  .img-section {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+/* Opcional: mejorar el espaciado y la legibilidad */
+.container {
+  max-width: 1100px;
+}
+
+/* Ajustes para imágenes en las tarjetas */
+.card-img-top {
+  object-fit: cover;
+  height: 180px;
+}
+
+/* Ajustar los títulos y párrafos */
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fs-5 {
+  line-height: 1.6;
+}
+
+/* Sombra suave en las secciones con fondo claro */
+.bg-light {
+  background-color: #ffffff !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+}
+
+/* Botones y enlaces */
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #0d6efd !important;
+  text-decoration: underline;
+}

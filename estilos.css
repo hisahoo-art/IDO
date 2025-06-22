@@ -1,0 +1,51 @@
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  .hero-section {
+    background: linear-gradient(rgba(0, 73, 144, 0.7), rgba(0, 73, 144, 0.7)), url('Fondo.jpg') no-repeat center center/cover;
+    min-height: 85vh;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar-brand img {
+    border-radius: 50%;
+  }
+
+  section h2 {
+    border-left: 5px solid #0d6efd;
+    padding-left: 10px;
+  }
+
+  footer {
+    background: linear-gradient(45deg, #0d6efd, #094ba0);
+  }
+
+  .list-unstyled li {
+    margin-bottom: 10px;
+  }
+
+  .card-title {
+    color: #094ba0;
+  }
+
+  .dropdown-menu {
+    border-radius: 0.5rem;
+  }
+
+  a {
+  text-decoration: none;
+}
